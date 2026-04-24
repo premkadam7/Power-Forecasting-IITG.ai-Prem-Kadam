@@ -94,7 +94,7 @@ pip install optuna lightgbm xgboost scikit-learn pandas numpy matplotlib seaborn
 
 ### On Google Colab (recommended)
 1. Upload the three dataset files to your Google Drive root
-2. Open `IITG_AI_Power_Forecasting_FINAL.ipynb` in Colab
+2. Open `powerforecasting.ipynb` in Colab
 3. Run all cells — the notebook mounts Drive automatically
 4. Optuna tuning takes ~25–35 minutes on Colab CPU
 
@@ -106,8 +106,9 @@ The notebook reads from `/content/drive/MyDrive/`. If your files are in a subfol
 ## Repository Structure
 
 ```
-├── IITG_AI_Power_Forecasting_FINAL.ipynb   # Full pipeline notebook
-├── README.md                                # This file
+├── powerforecasting.ipynb   # Full pipeline notebook
+├── README.md                # This file
+├── REPORT.md                # Report explaining the code   
 └── datasets/
     ├── PGCB_date_power_demand.xlsx
     ├── weather_data.xlsx
